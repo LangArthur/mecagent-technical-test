@@ -9,6 +9,8 @@ dependencies = [
     "datasets>=3.6.0",
     "ipykernel>=6.29.5",
     "pillow>=11.2.1",
+    "salesforce-lavis",
     "scipy>=1.15.3",
+    "tokenizers>=0.15.0",
     "trimesh>=4.6.11",
 ]
