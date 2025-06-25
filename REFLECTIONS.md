@@ -31,7 +31,7 @@ the task can be represented as a "describe the image" situation -> the model has
 
 **Pros:**
 
-- simplify the process (compare to 1) with no visible trade-off
+- simplify the process (compare to 1) with no expected trade-off
 - models where able to learn English, they can learn CAD language
 
 **Cons:**
@@ -51,6 +51,13 @@ Some resources which can be useful. The list is filled on the fly while I progre
 ## Logs
 
 - BLIP-2 dependencies are not compatible with the current environment (numpy versions). I did some tries by doing my own fork of BLIP-2, but I need to much time to find a solution. Considering switching to another model
-- Testing briefly with Flamingo, but the data format seems . Considering to build a model from scratch finally.
-- Try a demo of deepseek : seems convincing, investigating how to train a custom model for it.
-- My GPU is not powerful enough to try the demo. I decide to write down the code of how I see the full workflow.
+- Testing briefly with Flamingo, but the data format seems to different from what we have. Considering to build a model from scratch at the end.
+- Try a demo of deepseek-coder : seems convincing, investigating how to train a custom model for it.
+- My GPU is not powerful enough to try the demo for deepseek. I decide to write down the code of how I see the full workflow, without testing it.
+
+## Conclusion
+
+So i did not succeed to reach the end of the base model. Several point I think blocked me:
+
+- I spent too much time figuring out how to handle the environment (I did not know about uv, and spent a bit less than an hour to fix the set-up on my computer) and the models I found online.
+- I had to take time to understand some concepts with code generation which I did not master.
